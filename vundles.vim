@@ -27,7 +27,7 @@ if count(g:vundles, 'general')
   Bundle 'mbbill/undotree'
   Bundle 'mhinz/vim-signify'
   Bundle 'Raimondi/delimitMate'
-  Bundle 'bling/vim-airline'
+  Bundle 'itchyny/lightline.vim'
   Bundle 'rodjek/vim-puppet'
 endif
 
