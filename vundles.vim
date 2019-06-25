@@ -60,12 +60,7 @@ endif
 endif
 
 if count(g:vundles, 'completion')
-    Bundle 'Shougo/neocomplcache'
-    Bundle 'Shougo/neosnippet'
-    Bundle 'Shougo/neosnippet-snippets'
-    Bundle 'scrooloose/snipmate-snippets'
-    Bundle 'honza/vim-snippets'
-    Bundle 'Indent-Guides'
+  Bundle 'ycm-core/YouCompleteMe'
 endif
 
 " PHP
