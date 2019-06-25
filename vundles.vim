@@ -1,9 +1,12 @@
 "
-" dotphiles : https://github.com/dotphiles/dotphiles
+" dotphiles : https://github.com/jbriales/dotfiles
 "
 " Essential vim plugins!
 "
 " Authors:
+"   Jesus Briales <jesusbriales@gmail.com>
+"
+" Based on:
 "   Ben O'Hara <bohara@gmail.com>
 "
 
