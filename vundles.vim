@@ -93,9 +93,14 @@ if count(g:vundles, 'ruby')
   Bundle 'tpope/vim-rails'
 endif
 
+" Markdown
+Bundle 'tpope/vim-markdown'
+Bundle 'mzlogin/vim-markdown-toc'
+let g:vmt_auto_update_on_save = 1
+let g:vmt_cycle_list_item_markers = 1
+
 " Misc
 if count(g:vundles, 'misc')
-  Bundle 'tpope/vim-markdown'
   Bundle 'spf13/vim-preview'
   Bundle 'tpope/vim-cucumber'
   Bundle 'tpope/vim-rsi'
