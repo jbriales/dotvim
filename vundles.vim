@@ -94,11 +94,18 @@ if count(g:vundles, 'ruby')
 endif
 
 " Markdown
-Bundle 'tpope/vim-markdown'
-Bundle 'mzlogin/vim-markdown-toc'
-let g:vmt_auto_update_on_save = 1
-let g:vmt_cycle_list_item_markers = 1
+Bundle 'plasticboy/vim-markdown'
+let g:vim_markdown_folding_style_pythonic = 1
+let g:vim_markdown_toc_autofit = 1
+let g:vim_markdown_conceal_code_blocks = 0
+let g:vim_markdown_follow_anchor = 1
+"Bundle 'mzlogin/vim-markdown-toc'
+"Bundle 'masukomi/vim-markdown-folding'
+"let g:vmt_auto_update_on_save = 1
+"let g:vmt_cycle_list_item_markers = 1
 Bundle 'amiorin/vim-fenced-code-blocks'
+Bundle 'KeitaNakamura/tex-conceal.vim'
+let g:tex_conceal="abdgm"
 
 " Misc
 if count(g:vundles, 'misc')
