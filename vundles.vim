@@ -96,7 +96,7 @@ endif
 " Markdown
 Bundle 'plasticboy/vim-markdown'
 let g:vim_markdown_folding_style_pythonic = 1
-let g:vim_markdown_toc_autofit = 1
+let g:vim_markdown_toc_autofit = 0
 let g:vim_markdown_conceal_code_blocks = 0
 let g:vim_markdown_follow_anchor = 1
 let g:vim_markdown_math = 1
