@@ -53,6 +53,7 @@ if count(g:vundles, 'programming')
   endif
   if v:version > 700
     Bundle 'scrooloose/syntastic'
+    let g:syntastic_auto_jump = 0
     if executable('ctags')
       Bundle 'majutsushi/tagbar'
     endif
