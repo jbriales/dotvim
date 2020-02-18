@@ -124,3 +124,6 @@ if count(g:vundles, 'misc')
   endif
   let g:goldenview__enable_default_mapping=0
 endif
+
+" Latex
+Bundle 'lervag/vimtex'
