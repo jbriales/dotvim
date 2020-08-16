@@ -61,7 +61,11 @@ endif
 endif
 
 if count(g:vundles, 'completion')
-  Bundle 'ycm-core/YouCompleteMe'
+  if v:version >= 705
+    " Only if version is enough
+    " NOTE: It would be enough with 7.4.1578+
+    Bundle 'ycm-core/YouCompleteMe'
+  endif
 endif
 
 " PHP
