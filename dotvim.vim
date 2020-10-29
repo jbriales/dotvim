@@ -109,7 +109,7 @@ if has("user_commands")
 endif
 
 " 'vim-plug'-managed plugins
-if exists("*plug#begin")
+if !empty(glob("~/.dotfiles/vim/dotvim/autoload/plug.vim"))
   " Only if 'vim-plug' installed
   call plug#begin('~/.vim/plugged')
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
