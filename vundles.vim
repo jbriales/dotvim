@@ -143,7 +143,12 @@ Plugin 'google/vim-codefmt'
 " Also add Glaive, which is used to configure codefmt's maktaba flags. See
 " `:help :Glaive` for usage.
 Plugin 'google/vim-glaive'
-" ...
+
+""" Language translation
+Plugin 'voldikss/vim-translator'
+let g:translator_target_lang = 'es'
+let g:translator_source_lang = 'en'
+
 call vundle#end()
 " the glaive#Install() should go after the "call vundle#end()"
 call glaive#Install()
