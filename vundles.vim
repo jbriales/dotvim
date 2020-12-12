@@ -133,3 +133,17 @@ endif
 " Latex
 Bundle 'lervag/vimtex'
 let g:tex_flavor = 'latex'
+
+""" Code formatting
+call vundle#begin()
+" Add maktaba and codefmt to the runtimepath.
+" (The latter must be installed before it can be used.)
+Plugin 'google/vim-maktaba'
+Plugin 'google/vim-codefmt'
+" Also add Glaive, which is used to configure codefmt's maktaba flags. See
+" `:help :Glaive` for usage.
+Plugin 'google/vim-glaive'
+" ...
+call vundle#end()
+" the glaive#Install() should go after the "call vundle#end()"
+call glaive#Install()
