@@ -10,6 +10,7 @@
 "   Ben O'Hara <bohara@gmail.com>
 "
 
+call vundle#begin()
 " Vundle itself
 Bundle 'gmarik/vundle'
 " Required for settings
@@ -135,7 +136,6 @@ Bundle 'lervag/vimtex'
 let g:tex_flavor = 'latex'
 
 """ Code formatting
-call vundle#begin()
 " Add maktaba and codefmt to the runtimepath.
 " (The latter must be installed before it can be used.)
 Plugin 'google/vim-maktaba'
