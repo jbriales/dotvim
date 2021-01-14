@@ -66,6 +66,9 @@ if count(g:vundles, 'completion')
     " Only if version is enough
     " NOTE: It would be enough with 7.4.1578+
     Bundle 'ycm-core/YouCompleteMe'
+
+    " Use tag files from YCM to populate identifiers
+    let g:ycm_collect_identifiers_from_tags_files = 1
   endif
 endif
 
