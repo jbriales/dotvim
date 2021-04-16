@@ -116,7 +116,7 @@ let g:vim_markdown_autowrite = 1
 "Bundle 'masukomi/vim-markdown-folding'
 "let g:vmt_auto_update_on_save = 1
 "let g:vmt_cycle_list_item_markers = 1
-Bundle 'amiorin/vim-fenced-code-blocks'
+Bundle 'jbriales/vim-fenced-code-blocks'
 Bundle 'KeitaNakamura/tex-conceal.vim'
 let g:tex_conceal="abdgm"
 
