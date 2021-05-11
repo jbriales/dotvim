@@ -138,6 +138,8 @@ endif
 Bundle 'lervag/vimtex'
 let g:tex_flavor = 'latex'
 
+Bundle 'powerman/vim-plugin-AnsiEsc'
+
 """ Code formatting
 " Add maktaba and codefmt to the runtimepath.
 " (The latter must be installed before it can be used.)
