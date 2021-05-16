@@ -37,18 +37,13 @@ map <F7> :setlocal spell! spell?<CR>
 set wildignore=.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
 set shell=$SHELL        " use current shell for shell commands
 set hidden              " enable multiple modified buffers
-set history=1000
-set autoread            " automatically read feil that has been changed on disk and doesn't have changes in vim
-set backspace=indent,eol,start
 set guioptions-=T       " disable toolbar"
 set completeopt=menuone,preview
 set cinoptions=:0,(s,u0,U1,g0,t0 " some indentation options ':h cinoptions' for details
 set modelines=5         " number of lines to check for vim: directives at the start/end of file
-set autoindent          " automatically indent new line
 
-set ts=2                " number of spaces in a tab
+set autoindent          " automatically indent new line
 set sw=2                " number of spaces for indent
-set et                  " expand tabs into spaces
 
 " mouse settings
 set mousehide           " Hide mouse pointer on insert mode (GUI-only)"
