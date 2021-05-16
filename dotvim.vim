@@ -54,7 +54,7 @@ set et                  " expand tabs into spaces
 if has("mouse")
   set mouse=a
 endif
-set mousehide           " Hide mouse pointer on insert mode."
+set mousehide           " Hide mouse pointer on insert mode (GUI-only)"
 
 " search settings
 set incsearch           " Incremental search
