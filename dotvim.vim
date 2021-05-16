@@ -51,9 +51,6 @@ set sw=2                " number of spaces for indent
 set et                  " expand tabs into spaces
 
 " mouse settings
-if has("mouse")
-  set mouse=a
-endif
 set mousehide           " Hide mouse pointer on insert mode (GUI-only)"
 
 " search settings
