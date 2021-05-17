@@ -99,12 +99,3 @@ if has("user_commands")
     let VundleInstalled=1
   endif
 endif
-
-" 'vim-plug'-managed plugins
-if !empty(glob("~/.dotfiles/vim/dotvim/autoload/plug.vim"))
-  " Only if 'vim-plug' installed
-  call plug#begin('~/.vim/plugged')
-  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-  " ...
-  call plug#end()
-endif
