@@ -124,7 +124,6 @@ let g:tex_conceal="abdgm"
 if count(g:vundles, 'misc')
   Bundle 'spf13/vim-preview'
   Bundle 'tpope/vim-cucumber'
-  Bundle 'tpope/vim-rsi'
   Bundle 'markcornick/vim-vagrant'
   Bundle 'Puppet-Syntax-Highlighting'
   Bundle 'ekalinin/Dockerfile.vim'
