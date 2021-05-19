@@ -61,17 +61,6 @@ if count(g:vundles, 'programming')
 endif
 endif
 
-if count(g:vundles, 'completion')
-  if v:version >= 705
-    " Only if version is enough
-    " NOTE: It would be enough with 7.4.1578+
-    Bundle 'ycm-core/YouCompleteMe'
-
-    " Use tag files from YCM to populate identifiers
-    let g:ycm_collect_identifiers_from_tags_files = 1
-  endif
-endif
-
 " PHP
 if count(g:vundles, 'php')
   Bundle 'spf13/PIV'
