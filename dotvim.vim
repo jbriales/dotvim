@@ -48,12 +48,6 @@ set sw=2                " number of spaces for indent
 " mouse settings
 set mousehide           " Hide mouse pointer on insert mode (GUI-only)"
 
-" search settings
-set incsearch           " Incremental search
-set hlsearch            " Highlight search match
-set ignorecase          " Do case insensitive matching
-set smartcase           " do not ignore if search pattern has CAPS
-
 " directory settings
 set nobackup            " do not write backup files
 set noswapfile          " do not write .swp files
