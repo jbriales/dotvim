@@ -48,7 +48,6 @@ if count(g:vundles, 'hg')
 endif
 " General Programming
 if count(g:vundles, 'programming')
-  Bundle 'godlygeek/tabular'
   if executable('ack')
     Bundle 'mileszs/ack.vim'
   endif
@@ -92,20 +91,10 @@ if count(g:vundles, 'ruby')
 endif
 
 " Markdown
-Bundle 'plasticboy/vim-markdown'
-let g:vim_markdown_folding_style_pythonic = 1
-let g:vim_markdown_toc_autofit = 0
-let g:vim_markdown_conceal_code_blocks = 0
-let g:vim_markdown_follow_anchor = 1
-let g:vim_markdown_math = 1
-let g:vim_markdown_auto_insert_bullets = 0
-let g:vim_markdown_new_list_item_indent = 0
-let g:vim_markdown_autowrite = 1
 "Bundle 'mzlogin/vim-markdown-toc'
 "Bundle 'masukomi/vim-markdown-folding'
 "let g:vmt_auto_update_on_save = 1
 "let g:vmt_cycle_list_item_markers = 1
-Bundle 'jbriales/vim-fenced-code-blocks'
 Bundle 'KeitaNakamura/tex-conceal.vim'
 let g:tex_conceal="abdgm"
 
