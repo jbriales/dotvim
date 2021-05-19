@@ -65,11 +65,6 @@ if has("folding")
   set nofoldenable        "dont fold by default "
 endif
 
-if has("user_commands")
-  let mapleader = ","
-  let maplocalleader = "\\"
-endif
-
 " Remember last position in file
 if has("autocmd")
   autocmd BufReadPost *
