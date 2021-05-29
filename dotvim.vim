@@ -55,14 +55,6 @@ if has("persistent_undo")
   set undodir=~/.backup/vim/undo/,~/tmp,.
 endif
 
-" folding
-if has("folding")
-  set foldcolumn=0        " columns for folding
-  set foldmethod=indent
-  set foldlevel=9
-  set nofoldenable        "dont fold by default "
-endif
-
 " Remember last position in file
 if has("autocmd")
   autocmd BufReadPost *
