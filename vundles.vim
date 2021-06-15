@@ -29,7 +29,6 @@ if count(g:vundles, 'general')
   Bundle 'sudo.vim'
   Bundle 'bronson/vim-trailing-whitespace'
   Bundle 'mbbill/undotree'
-  Bundle 'mhinz/vim-signify'
   Bundle 'Raimondi/delimitMate'
   Bundle 'itchyny/lightline.vim'
   Bundle 'rodjek/vim-puppet'
